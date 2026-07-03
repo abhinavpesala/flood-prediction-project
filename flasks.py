@@ -43,7 +43,7 @@ def predict():
 
         # PREDICT
         pred = model.predict(df)[0]
-        prob = model.predict_proba(df)[0][1]
+        prob = model.predict_proba(df)[0][1] 
 
         return jsonify({
             "Flood_Prediction": int(pred),
