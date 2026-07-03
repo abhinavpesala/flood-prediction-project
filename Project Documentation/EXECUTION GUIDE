@@ -1,0 +1,9 @@
+USE VS CODE TO RUN THE FOLDER 
+CREATE A FOLDER AND ADD data.py(Model),flood.csv(dataset),flasks.py(Backend) files to the folder and create sub folder named as templates
+add index.html file in templates
+now open the folder in vs code
+run data.py to train the model in terminal
+after training run flasks.py model in terminal
+the terminal ouputs a localhost ink with ip address 127.0.0.1 click cotrol and clcik the left muouse button when clicking the link to execute the model
+now the frontedn ui apperas
+enetr the required inputs and clcik predict to get output
