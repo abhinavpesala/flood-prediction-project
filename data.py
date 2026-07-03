@@ -102,6 +102,6 @@ with open("flood_model.pkl", "wb") as f:
     pickle.dump({
         "model": model,
         "columns": X.columns.tolist()
-    }, f)
+    }, f) 
 
 print("\n✅ Model saved successfully")
